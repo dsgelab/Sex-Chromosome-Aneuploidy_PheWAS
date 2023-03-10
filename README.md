@@ -1,9 +1,10 @@
-## Collaborative Phenome-Wide Association Studies (PheWAS) in Individuals with Sex Chromosome Trisomies (SCT) --- FinnGen data freeze 10
+# Collaborative Phenome-Wide Association Studies (PheWAS) in Individuals with Sex Chromosome Trisomies (SCT) --- FinnGen data freeze 10
 
-### Define SCT in males (XXY and XYY) and females (XXX) based on SNP array intensity data
+# Define SCT in males (XXY and XYY) and females (XXX) based on SNP array intensity data
 
 
-### Generate Phecodes from health registers
+
+# Generate Phecodes from health registers
 
 
 ### Matched case-control pheWAS
