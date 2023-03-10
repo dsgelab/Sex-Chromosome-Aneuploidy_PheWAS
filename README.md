@@ -14,6 +14,6 @@
 
 # Step 5: Visualization
 ## (1) PheWAS manhattan plots for each type of SCT
-## (2) comparison: males with an extra X versus males with an extra Y 
-## (3) comparison: males with an extra X versus females with an extra X 
+## (2) Comparison: males with an extra X versus males with an extra Y 
+## (3) Comparison: males with an extra X versus females with an extra X 
 
