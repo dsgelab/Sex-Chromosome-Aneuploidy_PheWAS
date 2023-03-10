@@ -1,6 +1,6 @@
 # Collaborative Phenome-Wide Association Studies (PheWAS) in Individuals with Sex Chromosome Trisomies
 
-## Define Sex Chromosome Trisomies
+### Define Sex Chromosome Trisomies
 
 
 ## Generate Phecodes
