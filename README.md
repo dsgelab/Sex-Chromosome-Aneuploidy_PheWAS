@@ -3,14 +3,14 @@
 ### Define Sex Chromosome Trisomies
 
 
-## Generate Phecodes
+### Generate Phecodes
 
 
-## Matched case-control pheWAS
+### Matched case-control pheWAS
 
 
-## Meta-analysis across three cohorts
+### Meta-analysis across three cohorts
 
 
-## Plots for the manuscript
+### Plots for the manuscript
 
