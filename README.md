@@ -3,7 +3,7 @@
 ### Step 1: Define SCT in males (XXY and XYY) and females (XXX) based on SNP array intensity data
 
 
-### Step 2: Generate Phecodes from health registers
+### Step 2: Generate Phecodes from health registers (ICD9 and ICD10)
 
 
 ### Step 3: Matched case-control pheWAS
