@@ -226,3 +226,5 @@ dim(phecode_all_uniq)   # 4,774,069       4
 save(phecode_all_uniq, file="20230222_phecode_all_uniq.Rdata")
 # phecode_all_uniq <- data.frame(get(load("20230222_phecode_all_uniq.Rdata")))
 
+
+
