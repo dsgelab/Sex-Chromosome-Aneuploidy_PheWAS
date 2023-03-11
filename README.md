@@ -9,10 +9,10 @@
 ### Step 3: Match 5 controls for each case
 
 
-### Step 4: Run case-control pheWAS using conditional logistic regression
+### Step 4: Individuals with clinical diagnoses (ICD9 758 and ICD10 Q97-99)
 
 
-### Step 5: Individuals with clinical diagnoses (ICD9 758 and ICD10 Q97-99)
+### Step 5: Run case-control pheWAS using conditional logistic regression
 
 
 ### Step 6: Meta-analysis and heterogeneity test across three cohorts
