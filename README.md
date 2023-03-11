@@ -12,7 +12,7 @@
 ### Step 4: Run case-control pheWAS using conditional logistic regression
 
 
-### Step 5: Meta-analysis across three cohorts
+### Step 5: Meta-analysis and heterogeneity test across three cohorts
 
 
 ### Step 6: Visualization
