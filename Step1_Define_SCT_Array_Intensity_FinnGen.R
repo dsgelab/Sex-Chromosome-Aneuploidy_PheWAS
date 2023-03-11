@@ -1,6 +1,6 @@
 ### Define sex chromosome aneuploidy (SCA) by using sex chromosome LRR/BAF generated from MoChA pipeline 
 ## male: XXY, XYY, and XXYY
-## female: XXX and XO (note the definition of XO need to be improved, but it's fine for the current project since it only focus on trisomy)
+## female: XXX and XO (note the definition of XO need to be improved, but it's fine for the current project since the PheWAS only focus on trisomy)
 
 
 
