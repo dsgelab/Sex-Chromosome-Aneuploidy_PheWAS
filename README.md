@@ -24,5 +24,5 @@
 #### (7.3) Comparison: males with an extra X versus females with an extra X 
 
 
-### Step 8: Basic statistics required by the manuscript
+### Step 8: Descriptive statistics required by the manuscript
 
