@@ -23,3 +23,6 @@
 #### (7.2) Comparison: males with an extra X versus males with an extra Y 
 #### (7.3) Comparison: males with an extra X versus females with an extra X 
 
+
+### Step 8: Basic statistics required by the manuscript
+
