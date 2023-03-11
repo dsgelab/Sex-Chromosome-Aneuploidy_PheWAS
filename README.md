@@ -12,11 +12,14 @@
 ### Step 4: Run case-control pheWAS using conditional logistic regression
 
 
-### Step 5: Meta-analysis and heterogeneity test across three cohorts
+### Step 5: Individuals with clinical diagnoses (ICD9 758 and ICD10 Q97-99)
 
 
-### Step 6: Visualization
-#### (6.1) PheWAS manhattan plots for each type of SCT
-#### (6.2) Comparison: males with an extra X versus males with an extra Y 
-#### (6.3) Comparison: males with an extra X versus females with an extra X 
+### Step 6: Meta-analysis and heterogeneity test across three cohorts
+
+
+### Step 7: Visualization
+#### (7.1) PheWAS manhattan plots for each type of SCT
+#### (7.2) Comparison: males with an extra X versus males with an extra Y 
+#### (7.3) Comparison: males with an extra X versus females with an extra X 
 
