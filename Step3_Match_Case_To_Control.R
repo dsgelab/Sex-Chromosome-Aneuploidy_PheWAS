@@ -1,7 +1,7 @@
 
-### Given the pheWAS will be a matched case-control studies (instead of a population-based analysis), this script is to match 5 controls for each trisomy case 
-# Variable used to match, including sex, birth year, and region of birth (better control for SES)
-# For QC, we removed individuals who ever moved abroad 
+### Since the pheWAS will be a matched case-control studies (instead of a population-based analysis), this script is to match 5 controls for each trisomy case 
+# Variable used to match, including sex, birth year, and region of birth (better control for SES).
+# For QC, we removed individuals who ever moved abroad.
 
 
 
