@@ -19,7 +19,6 @@ library(ggplot2)
 
 
 
-
 ####################################################################################################
 #                    PheWAS for all SCA cases identified from SNP array data                       #
 ####################################################################################################
@@ -48,7 +47,7 @@ for (i in c("XXX", "XYY", "XXY")) {
 		codes_all <- codes_all %>% filter(V1 %!in% res_done$phenotype) %>% mutate(V1=as.character(V1))
 		codes <- codes_all$V1
 	}
-
+	
 	for (ep in codes){
 		
 		## cases -------------------
@@ -77,13 +76,15 @@ for (i in c("XXX", "XYY", "XXY")) {
 			df[1,"sca"] <- i
 			df[1,"sca_i"] <- "all"
 			
-			print(df)
+			if (df[1,"OR_975"]!="Inf" & !is.na(df[1,"OR_975"])){
+				print(df)
 			
-			if (!file.exists(paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"))){
-				write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"), append=F, quote=F, sep="\t", row.names=F, col.names=T)
-			} else {
-				write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"), append=T, quote=F, sep="\t", row.names=F, col.names=F)
-			} 
+				if (!file.exists(paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"))){
+					write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"), append=F, quote=F, sep="\t", row.names=F, col.names=T)
+				} else {
+					write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"), append=T, quote=F, sep="\t", row.names=F, col.names=F)
+				} 
+			}
 			
 		}
 	}
@@ -158,19 +159,19 @@ for (i in c("XXX", "XYY", "XXY")) {
 			df[1,"sca"] <- i
 			df[1,"sca_i"] <- "Diagnosed"
 			
-			print(df)
-			
-			if (!file.exists(paste0("20220310_SCA_FinnGenR10.",i,"Diagnosed.match1to5.phecodes.tsv"))){
-				write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Diagnosed.match1to5.phecodes.tsv"), append=F, quote=F, sep="\t", row.names=F, col.names=T)
-			} else {
-				write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Diagnosed.match1to5.phecodes.tsv"), append=T, quote=F, sep="\t", row.names=F, col.names=F)
+			if (df[1,"OR_975"]!="Inf" & !is.na(df[1,"OR_975"])){
+				print(df)
+				
+				if (!file.exists(paste0("20220310_SCA_FinnGenR10.",i,"Diagnosed.match1to5.phecodes.tsv"))){
+					write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Diagnosed.match1to5.phecodes.tsv"), append=F, quote=F, sep="\t", row.names=F, col.names=T)
+				} else {
+					write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Diagnosed.match1to5.phecodes.tsv"), append=T, quote=F, sep="\t", row.names=F, col.names=F)
+				} 
 			} 
 			
 		}
 	}
 }
-
-
 
 
 
@@ -241,16 +242,20 @@ for (i in c("XXX", "XYY", "XXY")) {
 			df[1,"sca"] <- i
 			df[1,"sca_i"] <- "Undiagnosed"
 			
-			print(df)
-			
-			if (!file.exists(paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"))){
-				write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"), append=F, quote=F, sep="\t", row.names=F, col.names=T)
-			} else {
-				write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"), append=T, quote=F, sep="\t", row.names=F, col.names=F)
-			} 
+			if (df[1,"OR_975"]!="Inf" & !is.na(df[1,"OR_975"])){
+				print(df)
+				
+				if (!file.exists(paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"))){
+					write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"), append=F, quote=F, sep="\t", row.names=F, col.names=T)
+				} else {
+					write.table(df, paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"), append=T, quote=F, sep="\t", row.names=F, col.names=F)
+				} 
+			}
 			
 		}
 	}
 }
+
+
 
 
