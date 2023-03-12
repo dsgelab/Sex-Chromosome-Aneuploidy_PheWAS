@@ -41,8 +41,8 @@ for (i in c("XXX", "XYY", "XXY")) {
 	codes <- codes_all$V1
 	length(codes)   # 1236
 	
-	if (file.exists(paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"))){
-		res_done <- read.table(paste0("20220310_SCA_FinnGenR10.",i,"Undiagnosed.match1to5.phecodes.tsv"), header=T) %>% mutate(phenotype=as.character(phenotype))
+	if (file.exists(paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"))){
+		res_done <- read.table(paste0("20220310_SCA_FinnGenR10.",i,"All.match1to5.phecodes.tsv"), header=T) %>% mutate(phenotype=as.character(phenotype))
 		codes_all <- read.table(paste0("20220310_SCA_FinnGenR10.phe_FinnGenR10.",i,".phecodes.lst"), header=F) 
 		codes_all <- codes_all %>% filter(V1 %!in% res_done$phenotype) %>% mutate(V1=as.character(V1))
 		codes <- codes_all$V1
