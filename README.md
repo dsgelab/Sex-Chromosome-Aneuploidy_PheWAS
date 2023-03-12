@@ -12,7 +12,8 @@
 ### Step 4: Individuals with clinical diagnoses (ICD9 758 and ICD10 Q97-99)
 
 
-### Step 5: Run case-control pheWAS using conditional logistic regression (phecodes, finngen endpoints, durg ATC codes, operation Nomosco codes)
+### Step 5: Run case-control pheWAS using conditional logistic regression 
+(phecodes, finngen endpoints, durg ATC codes, operation Nomosco codes)
 
 
 ### Step 6: Meta-analysis and heterogeneity test across three cohorts
