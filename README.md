@@ -17,7 +17,7 @@ Clinical diagnoses were defined as having ICD9 758 or ICD10 Q97-99.
 
 
 ### Step 5: Run case-control pheWAS using conditional logistic regression 
-Four types of codes, including phecodes, finngen endpoints, durg ATC codes, and operation Nomosco codes.
+Four types of codes, including phecodes, finngen endpoints, drug ATC codes, and operation Nomosco codes.
 
 
 ### Step 6: Meta-analysis and heterogeneity test across three cohorts
