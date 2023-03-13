@@ -1,5 +1,4 @@
 
-
 ## Information for Kela drug purchase register -----------
 ## gsutil cat gs://finngen-production-library-red/finngen_R10/phenotype_1.0/finngen_R10_detailed_longitudinal_readme_1.0.txt
 
