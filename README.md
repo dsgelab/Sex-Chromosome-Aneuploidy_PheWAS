@@ -4,7 +4,7 @@
 We first visualized the distribution of sex chromosome LRR and BAF, and then defined threshod to classify each type of SCT. 
 
 
-### Step 2: Generate Phecodes from health registers (ICD9 and ICD10)
+### Step 2: Generate Phecodes from health registers 
 phecodes were mapped from ICD9 and ICD10 using the "mapCodesToPhecodes" function of the PheWAS R package.
 
 
