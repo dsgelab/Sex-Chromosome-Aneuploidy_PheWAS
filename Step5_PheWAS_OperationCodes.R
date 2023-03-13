@@ -5,32 +5,32 @@
 # ### Inpatient Hilmo register - Operations
 # Field    |Register           |Register long name                                            |
 # ---------|-------------------|--------------------------------------------------------------|
-# SOURCE   |OPER_IN	     | Operations in inpatient Hilmo register                       |
+# SOURCE   |OPER_IN	       | Operations in inpatient Hilmo register                       |
 # 
 # Field    |Code               |Code description                                                                                                                     |
 # ---------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|	
 # CODE1    |OPERATION CODE     |CATEGORY column describes which coding is used.							                                   |
 # ICDVER   |ICD8:10            |ICD version 8:10                                                                                                                     |
 # CATEGORY |NOM1:3             |Main procedure; surgery codes (Nomesco)                                                                                              |
-# 	 |NOM4:137	     |Side procedure; surgery codes (Nomesco)   											   |               
-# 	 |MFHL1:3            |Main procedure first surgery code; Main procedure second surgery code; Main procedure third surgery code (Finnish hospital league)   |
-# 	 |SFHL1:2            |First other procedure, first surgery code; Second other procedure, first surgery code (Finnish hospital league)                      |
-# 	 |HPO1:3             |Procedure for demanding heart patient, old coding.						                                   |			
-# 	 |HPN1:9             |Procedure for demanding heart patient, new coding.                                                                                   |
+# 	   |NOM4:137	       |Side procedure; surgery codes (Nomesco)   											   |               
+# 	   |MFHL1:3            |Main procedure first surgery code; Main procedure second surgery code; Main procedure third surgery code (Finnish hospital league)   |
+# 	   |SFHL1:2            |First other procedure, first surgery code; Second other procedure, first surgery code (Finnish hospital league)                      |
+# 	   |HPO1:3             |Procedure for demanding heart patient, old coding.						                                   |			
+# 	   |HPN1:9             |Procedure for demanding heart patient, new coding.                                                                                   |
 # 
 # 
 # ### Outpatient Hilmo register - Operations
 # Field    |Register           |Register long name                                                                                                                   |
 # ---------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-# SOURCE   |OPER_OUT	     | Operations in outpatient Hilmo register                                                                                             |
+# SOURCE   |OPER_OUT	       | Operations in outpatient Hilmo register                                                                                             |
 # 
 # Field    |Code               |Code description                                                                                                                     |
 # ---------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|	
 # CODE1    |OPERATION CODE     |CATEGORY column describes which coding is used.											                                                                          ICDVER   |ICD8:10            |ICD version 8:10                                                                                                                     |
 # CATEGORY |NOM1:3             |Main procedure; surgery codes (Nomesco)                                                                                              |
-# 	 |NOM4:72	     |Side procedure; surgery codes (Nomesco)   											   |               
-# 	 |HPO1:4             |Procedure for demanding heart patient, old coding and newer version of old coding.						                                   |			
-# 	 |HPN1:11            |Procedure for demanding heart patient, new coding.                                                                                   |
+# 	   |NOM4:72	       |Side procedure; surgery codes (Nomesco)   											   |               
+# 	   |HPO1:4             |Procedure for demanding heart patient, old coding and newer version of old coding.						                                   |			
+# 	   |HPN1:11            |Procedure for demanding heart patient, new coding.                                                                                   |
 # 
 
 
