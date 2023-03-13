@@ -5,7 +5,7 @@ We first visualized the distribution of sex chromosome LRR and BAF, and then def
 
 
 ### Step 2: Generate Phecodes from health registers 
-phecodes were mapped from ICD9 and ICD10 using the "mapCodesToPhecodes" function of the PheWAS R package.
+We mapped ICD9 and ICD10 to phecodes using the "mapCodesToPhecodes" function in PheWAS R package.
 
 
 ### Step 3: Match 5 controls for each case
