@@ -222,8 +222,6 @@ for (i in c("XXX", "XYY", "XXY")) {
 	}
 }
 
-system("gsutil cp  20220310_SCA_FinnGenR10.*All.match1to5.operationcodes.tsv   gs://dsge-aoxing/mocha/FinnGenXXY/")
-
 
 
 
@@ -308,8 +306,6 @@ for (i in c("XXX", "XYY", "XXY")) {
 		}
 	}
 }
-
-system("gsutil cp  20220310_SCA_FinnGenR10.*Diagnosed.match1to5.operationcodes.tsv   gs://dsge-aoxing/mocha/FinnGenXXY/")
 
 
 
