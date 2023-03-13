@@ -18,7 +18,7 @@ Clinical diagnoses were defined as having ICD9 758 or ICD10 Q97-99.
 
 ### Step 5: Run case-control pheWAS using conditional logistic regression 
 Four types of codes, including phecodes, finngen endpoints, drug ATC codes, and operation Nomosco codes.
-*Three sets of association analyses, all SCT cases identified from SNP array data, SCT cases with clinical diagnoses, SCT cases without clinical diagnoses.
+<br /> Three sets of association analyses, all SCT cases identified from SNP array data, SCT cases with clinical diagnoses, SCT cases without clinical diagnoses.
 
 
 ### Step 6: Meta-analysis and heterogeneity test across three cohorts
