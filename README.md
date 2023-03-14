@@ -22,7 +22,8 @@ Four types of codes, including phecodes, finngen endpoints, drug ATC codes, and 
 <br /> 
 
 ### Step 6: Meta-analysis of phecodes across three cohorts
-<br /> Fixed effect model and reported P-value from heterogeneity test.
+Fixed effect model and reported P-value from heterogeneity test.
+<br /> 
 
 ### Step 7: Visualization
 #### (7.1) PheWAS manhattan plots for each type of SCT
