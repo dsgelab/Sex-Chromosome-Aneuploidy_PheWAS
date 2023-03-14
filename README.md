@@ -21,8 +21,8 @@ Four types of codes, including phecodes, finngen endpoints, drug ATC codes, and 
 <br /> Three sets of association analyses, all SCT cases identified from SNP array data, SCT cases with clinical diagnoses, SCT cases without clinical diagnoses.
 <br /> 
 
-### Step 6: Meta-analysis and heterogeneity test across three cohorts
-<br /> 
+### Step 6: Meta-analysis of phecodes across three cohorts
+<br /> Fixed effect model and reported P-value from heterogeneity test.
 
 ### Step 7: Visualization
 #### (7.1) PheWAS manhattan plots for each type of SCT
